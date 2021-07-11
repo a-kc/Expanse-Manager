@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="10dp"
+    android:elevation="5dp"
+    >
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/nav_header"
+            android:text="Type"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:gravity="center"
+            android:id="@+id/type_income_ds"
+        >
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Amount"
+            android:padding="5dp"
+            android:layout_marginTop="10dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/income_coloer"
+            android:gravity="center"
+            android:id="@+id/amount_income_ds"
+            >
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="24 March 2021"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:gravity="center"
+            android:id="@+id/date_income_ds"
+            android:textColor="@color/income_coloer"
+            android:layout_marginTop="5dp"
+            >
+        </TextView>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
